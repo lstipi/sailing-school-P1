@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Urbanist:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    background-color: #99ccff;
+
+}
+
+/* headings and logo*/ 
+
+h1,h2 { 
+    font-family: 'Lato', sans-serif;
+}
+
+#logo {
+    float: left;
+    color:black;
+    text-transform:uppercase;
+    text-decoration: none;
+    
+
+    margin-left: 20px;
+}
+
+/* menu nav options style */ 
+
+#menu { 
+font-size: 120%;
+letter-spacing: normal;
+}
+
+#logo, #menu {
+    line-height: 50px;
+}
+
+#menu li { 
+    float: right;
+    margin-right: 30px;
+}
+
+#menu a { 
+    text-decoration: underline;
+    color: inherit;
+}
+
+/* sailing image */
+
+#sailing-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#sailing-image {
+    height: 700px;
+    width: 100%; 
+   background:url(../images/sailing-image.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
