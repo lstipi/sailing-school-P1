@@ -68,3 +68,101 @@ letter-spacing: normal;
    background-repeat: no-repeat;
    
 }
+
+#cover-text { 
+    font-size: 130%;
+    font-family: Lato, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+
+    width: 200px;
+    height: 100;
+
+    padding-bottom: 40px;
+    padding-right: 10px;
+
+    background-color: rgba(18, 33, 73, 0.61);
+
+    top: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+.button {
+    background-color: #073757; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 100%;
+    font-family: Lato, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px 2px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button-1 {
+    background-color: #1177bb; 
+    color: white; 
+    border: 2px solid #073757;
+  }
+  
+  .button-1:hover {
+    background-color: #073757;
+    color: white;
+  }
+  
+  .button-2 {
+    background-color: #1177bb; 
+    color: white; 
+    border: 2px solid #073757;
+  }
+
+ .button-2:hover {
+        background-color: #073757;
+        color: white;
+      }
+/* begginers guide */
+
+#begginers-header { 
+    text-align: center;
+    ;
+}
+
+
+
+iframe { 
+    padding-top: 30px;
+        margin:auto;
+        display:block;
+}
+    
+/* sailing about */
+
+#sailing-about { 
+    height:600px;
+}
+
+#left-about { 
+    padding-top: 30px;
+    float: left;
+    width: 33%;
+    margin: 30px;
+}
+
+#right-about { 
+    padding-top: 30px;
+    float: right;
+    width: 33%;
+    margin: 30px;
+}
+#center-about { 
+    width: 33%; 
+    margin: 0 auto;
+}
