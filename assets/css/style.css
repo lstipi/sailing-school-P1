@@ -61,14 +61,15 @@ letter-spacing: normal;
     position: relative;
 }
 
+
 #sailing-image {
     height: 700px;
     width: 100%; 
    background:url(../images/sailing-image.jpeg);
    background-size: cover;
-   background-repeat: no-repeat;
-   
-}
+   background-repeat: no-repeat;}
+
+
 /* buttons and cover text*/ 
 
 #cover-text { 
@@ -230,4 +231,10 @@ letter-spacing: normal;
 
     }
 
-    
+    /* Media Queries*/ 
+
+    @media screen and (max-width: 1200px) {
+        #sailing-image {
+          width: 65%; 
+        }
+    }
