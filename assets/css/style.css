@@ -215,24 +215,29 @@ letter-spacing: normal;
 
 footer {
 
-        position:fixed;
-        left:0px;
-        bottom:0px;
-        height:30px;
-        width:100%;
+    position:fixed;
+    bottom:0px;
+    width:100%;
     background-color: navy;
-
+    text-align: center;
 
 }
 
-.social-media ul { 
+.social-media  { 
     list-style: none;
-text-decoration:none;
-display:inline-block;  
-float:right;
-position: relative;
+    display:inline-block;
+    position: relative;
+    padding: 5px 0px;
 }
 
+.social-media li {
+    display:inline-block;
+}
+
+.social-media li a {
+    font-size: 30px;
+  margin-right: 10px;
+}
 
 /* where to find us */ 
 
