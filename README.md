@@ -9,3 +9,4 @@ text after iframe and positioning [https://stackoverflow.com/questions/35877796/
 stackoverflow forums for help with nav and footer [https://stackoverflow.com/]
 mozzila dev [https://developer.mozilla.org/en-US/]
 used this website to help me calculate the units to centre elements [http://howtocenterincss.com/#contentType=text&horizontal=left&vertical=top]
+media queries sizes [https://www.w3schools.com/css/css_rwd_mediaqueries.asp]

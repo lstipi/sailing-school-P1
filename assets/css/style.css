@@ -185,7 +185,6 @@ a {
 #sailing-about {
     height: 600px;
     min-height:600px;
-    overflow:hidden;
     display: block;
     margin-bottom: 150px;
 }
@@ -290,6 +289,7 @@ footer {
 #timetable {
     padding: 30px;
     text-align: center;
+    overflow: hidden;
 }
 
 table {
@@ -308,9 +308,6 @@ table {
     font-size: larger;
     font-weight: 600;
     text-align: center;
-
-
-
 
 }
 
@@ -370,8 +367,38 @@ td {
 
 /* Media Queries*/
 
-@media screen and (max-width: 1200px) {
-    #sailing-image {
-        width: 65%;
+@media(max-width:600px) {
+    #form input { 
+        width: 200px;
+    }
+    .contact-wrap {
+        margin-top:50px;
+    }
+}
+
+@media (max-width:768px) 
+{  #left-about{
+    float: none;
+    width: 100%;
+  }
+
+  #right-about{
+    float: none;
+    width: 100%;
+  }
+
+  #iframe-location{
+    width: 90%;
+    height: auto;
+  }
+  .location_wrap{
+    margin-bottom: 50px;
+  }
+    
+}
+
+@media (max-width:992px) {
+    .navbar {
+        width: 95%;
     }
 }
