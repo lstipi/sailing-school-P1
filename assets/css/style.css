@@ -12,44 +12,54 @@ body {
     background-color: #99ccff;
 
 }
+/* headings and logo*/
 
-/* headings and logo*/ 
-
-h1,h2 { 
+h1,h2 {
     font-family: 'Lato', sans-serif;
 }
 
-#logo {
-    float: left;
-    color:black;
-    text-transform:uppercase;
-    text-decoration: none;
-    
 
-    margin-left: 20px;
+/* menu nav options style */
+
+
+.navbar {
+	width: 100%;
+	margin:0 auto;
+    overflow: hidden;
+    background-color:#499DD0;
+   
 }
 
-/* menu nav options style */ 
+nav a { color: inherit; }
 
-#menu { 
-font-size: 120%;
-letter-spacing: normal;
+.logo {
+	float: left;
+	display: block;
+	font-size: 32px;
+	font-weight: bold;
+    padding: 20px 0px;
 }
 
-#logo, #menu {
-    line-height: 50px;
+
+nav .menu ul { 
+    float: right; 
+    padding: 20px 0px;
+ }
+
+nav .menu li {
+	float: left;
+	list-style: none;
 }
 
-#menu li { 
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
+nav .menu li a {
+	color: inherit;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	padding: 12px 20px;
 }
 
-#menu a { 
-    text-decoration: underline;
-    color: inherit;
-}
+
 
 /* sailing image */
 
@@ -57,7 +67,6 @@ letter-spacing: normal;
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -218,7 +227,7 @@ footer {
     position:fixed;
     bottom:0px;
     width:100%;
-    background-color: navy;
+    background-color: #499DD0;
     text-align: center;
 
 }
