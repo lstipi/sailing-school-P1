@@ -304,15 +304,40 @@ footer {
     
     /* contact-form*/
     
-    #form {
-        position: absolute;
-        top: 0;
-        overflow: auto;
-        display: block;
-        height: 90%;
-        width: 100%;
+    .contact-wrap { 
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+    
     }
 
+    .contact_wrap h1{
+        font-size: 36px;
+        padding-bottom: 40px;
+      }
+      
+
+     .contact-wrap h1 { 
+        font-size: 36px;
+        padding-bottom: 40px;
+     }
+
+    #form-input { 
+        width: 270px;
+      padding: 8px 0px;
+      border-radius: 5px;
+    }
+
+    .label-box {
+        display: inline-block;
+        width: 90px;
+    }
+
+    .submit-button {
+        width: 100px !important;
+        cursor: pointer;
+        margin-top: 50px;
+    }
 
     /* Media Queries*/ 
 
