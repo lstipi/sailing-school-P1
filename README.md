@@ -7,3 +7,4 @@ sailing image from Pexels [https://www.pexels.com/photo/blue-boats-daylight-isla
 reviewed essential code from [https://www.w3schools.com/]
 text after iframe and positioning [https://stackoverflow.com/questions/35877796/text-after-iframe]
 stackoverflow forums for help with nav and footer [https://stackoverflow.com/]
+mozzila dev [https://developer.mozilla.org/en-US/]

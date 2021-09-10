@@ -184,19 +184,28 @@ a {
 
 #sailing-about {
     height: 600px;
+    min: height 600px; ;
+    overflow:hidden;
+    display: block;
+    margin-bottom: 150px;
+}
+.about-wrap {
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 #left-about {
     padding-top: 30px;
     float: left;
-    width: 33%;
+    width: 45%;
     margin: 30px;
 }
 
 #right-about {
     padding-top: 30px;
     float: right;
-    width: 33%;
+    width: 45%;
     margin: 30px;
 }
 
@@ -215,7 +224,7 @@ a {
     padding-top: 30px;
     font-size: large;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 
 }
 
@@ -235,7 +244,7 @@ footer {
     list-style: none;
     display: inline-block;
     position: relative;
-    padding: 5px 0px;
+    padding: 15px 0px;
 }
 
 .social-media li {
@@ -279,7 +288,7 @@ footer {
 /* Timetable style */
 
 #timetable {
-    padding-top: 60px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -318,6 +327,9 @@ td {
     line-height: 50px;
 }
 
+#exceptions {
+    text-align: center;
+}
 
 /* contact-form*/
 
