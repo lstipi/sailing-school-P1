@@ -184,7 +184,7 @@ a {
 
 #sailing-about {
     height: 600px;
-    min: height 600px; ;
+    min-height:600px;
     overflow:hidden;
     display: block;
     margin-bottom: 150px;
