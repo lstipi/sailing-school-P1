@@ -58,7 +58,6 @@ nav .menu li {
 nav .menu li a {
     color: inherit;
     cursor: pointer;
-    position: relative;
     display: block;
     padding: 12px 20px;
 }
@@ -67,7 +66,7 @@ nav .menu li a {
 
 /* sailing image */
 
-#sailing-outer {
+#set-sail {
     height: 700px;
     width: 100%;
     background: url(../images/sailing-image.jpeg);
@@ -105,10 +104,8 @@ nav .menu li a {
     color: white;
     padding: 16px 32px;
     font-size: 100%;
-    font-family: Lato, sans-serif;
     letter-spacing: 4px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 14px;
     margin: 4px 2px 2px 4px;
@@ -142,8 +139,6 @@ nav .menu li a {
 
 a {
     font-size: 100%;
-    font-family: Lato, sans-serif;
-    text-transform: capitalize;
     letter-spacing: 4px;
     text-align: center;
     text-decoration: none;
@@ -182,7 +177,7 @@ a {
 
 /* sailing about */
 
-#sailing-about {
+#about-us {
     height: 600px;
     min-height:600px;
     display: block;
@@ -206,11 +201,6 @@ a {
     float: right;
     width: 45%;
     margin: 30px;
-}
-
-#center-about {
-    width: 33%;
-    margin: 0 auto;
 }
 
 #left-about-header {
@@ -289,7 +279,7 @@ footer {
 #timetable {
     padding: 30px;
     text-align: center;
-    overflow: hidden;
+    
 }
 
 table {
@@ -336,12 +326,6 @@ td {
     text-align: center;
 
 }
-
-.contact_wrap h1 {
-    font-size: 36px;
-    padding-bottom: 40px;
-}
-
 
 .contact-wrap h1 {
     font-size: 36px;
