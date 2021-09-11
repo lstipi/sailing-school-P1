@@ -109,7 +109,7 @@ The site was deployed using GitPages, the link is :
 
 ### Media
 
-- The main image used on the homepage is from Pexels [https://www.pexels.com/photo/blue-boats-daylight-island-358326/]
+- The main image used on the homepage is from [Pexels]([https://www.pexels.com/photo/blue-boats-daylight-island-358326/)
 
 
 
