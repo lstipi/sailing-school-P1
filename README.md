@@ -10,7 +10,7 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 ## Features
 
 The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to begginer's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue and white, to achieve good visibility. 
-To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form with contact us in the contact-form.html. 
+To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form where t is possible to sign up in the contact-form.html. 
 
 ### Existing Features
 
