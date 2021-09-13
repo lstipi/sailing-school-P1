@@ -4,6 +4,8 @@ Hi, welcome to my Sailing School project!
 
 The initial idea was to set up a web site for a sailing school, focused on begginer's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project.  The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. 
 
+[Deployed URL](https://lstipi.github.io/sailing-school-P1/)
+
 ![Central image](https://i.imgur.com/uZ7OKci.jpg)
 
 
@@ -90,7 +92,17 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 
 ## Deployment
 
-The site was deployed using GitPages, the link is : 
+The site was deployed using GitPages, the link is :
+
+1. Go to the GitHub Pages https://github.com/lstipi/sailing-school-P1/settings/pages
+![image](https://user-images.githubusercontent.com/87386883/133104257-d6750715-56c1-4264-abc6-85d112a69527.png)
+
+2.  Selected the main branch and clicked Save
+![image](https://user-images.githubusercontent.com/87386883/133104567-f3ad0cbe-f7bf-434f-9203-1957bcda758d.png)
+
+3. You should see the success message and that the site is deployed
+![image](https://user-images.githubusercontent.com/87386883/133105121-38bf7b2b-b0f4-496a-a141-b88cbe78bae9.png)
+
 
 ## Credits 
 
