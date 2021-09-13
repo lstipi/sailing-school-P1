@@ -42,6 +42,7 @@ nav a {
     font-size: 32px;
     font-weight: bold;
     padding: 20px 0px;
+    margin-left: 20px;
 }
 
 
@@ -84,138 +85,107 @@ nav .menu li a {
     display: flex;
     justify-content: center;
     padding-top: 250px;
+    flex-direction: column;
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: Lato, sans-serif;
-    text-transform: capitalize;
-    letter-spacing: 4px;
-    width: 200px;
-    height: 120px;
-    padding-bottom: 35px;
-    padding-right: 2px;
-    background-color: rgba(18, 33, 73, 0.61);
-}
 
 .button {
-    background-color: #073757;
-    border: none;
-    color: white;
     padding: 16px 32px;
     font-size: 100%;
     letter-spacing: 4px;
     text-align: center;
     display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px 2px 4px;
+    font-size: 18px;
+    margin: 5px auto;
     transition-duration: 0.4s;
     cursor: pointer;
-}
-
-.button-1 {
     background-color: #1177bb;
     color: white;
-    border: 2px solid #073757;
-
-}
-
-.button-1:hover {
-    background-color: #073757;
-    color: white;
-}
-
-.button-2 {
-    background-color: #1177bb;
-    color: white;
-    border: 2px solid #073757;
-
-}
-
-.button-2:hover {
-    background-color: #073757;
-    color: white;
-}
-
-a {
-    font-size: 100%;
+    border: 8px solid #073757; 
+    font-family: Lato, sans-serif;
+    text-transform: capitalize;
     letter-spacing: 4px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    display: inline;
+    width: 140px;
 }
+
+
+.button:hover {
+    background-color: #073757;
+    color: white;
+}
+
 
 /* beginners guide */
 
 #beginners-header {
+   
+    font-size: 32px;
     text-align: center;
-
-    ;
 }
 
-#fig-1 {
+/* CSS to make the embedded YouTube video responsive adopted from https://www.youtube.com/watch?v=9YffrCViTVk */
+
+.youtube-video-div 
+{
     position: relative;
-    width: 90vw;
-    height: 70vh;
-    margin: 30px auto;
-
-    text-align: center;
+      width: 100%;
+      padding-bottom: 56.25%; 
+      height: 0;
+    margin: 1.2rem auto;
 }
 
-#iframe-1 {
-    position: absolute;
-    top: 0;
-    overflow: auto;
-    display: block;
-    height: 90%;
+.youtube-video-div iframe{
     width: 100%;
+    height: 70%;
+    
+    position: absolute;
 }
+
 
 
 
 
 /* sailing about */
 
-#about-us {
-    height: 600px;
-    min-height:600px;
-    display: block;
-    margin-bottom: 150px;
-}
-.about-wrap {
-    width: 80%;
+/* flex grid from Tania Rascia https://codepen.io/taniarascia/pen/rOLEGe/ */
+.main {
+    max-width: 1400px;
     margin: 0 auto;
+  }
 
-}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column {
+    flex: 1;
+    margin: 0 1.2rem;
+  }
+/* end of flex grid from Tania Rascia */
 
-#left-about {
-    padding-top: 30px;
-    float: left;
-    width: 45%;
-    margin: 30px;
-}
-
-#right-about {
-    padding-top: 30px;
-    float: right;
-    width: 45%;
-    margin: 30px;
-}
-
-#left-about-header {
-    font-size: larger;
-    font-weight: 600;
-    text-align: center;
-}
-
-#about-us-text {
+/* textual copy styles */
+.copy {
     padding-top: 30px;
     font-size: large;
     font-weight: 500;
     letter-spacing: 1px;
-
 }
+.copy p{
+    margin-bottom: 1.2rem;
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+.copy h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        margin: 1.2rem 0 1rem;
+}
+.text-center{
+    text-align: center;
+}
+
 
 /* footer */
 
@@ -320,34 +290,47 @@ td {
 
 /* contact-form*/
 
-.contact-wrap {
+.contact-wrap{
     display: block;
     margin-top: 50px;
     text-align: center;
+  }
 
-}
-
-.contact-wrap h1 {
+  .contact-wrap h1 {
     font-size: 36px;
     padding-bottom: 40px;
 }
 
-#form-input {
-    width: 270px;
-    padding: 8px 0px;
-    border-radius: 5px;
+.contact-wrap form {
+    width: 50%;
+    margin: 0 auto;
 }
 
-.label-box {
-    display: inline-block;
-    width: 90px;
+form .row {
+    margin-bottom: 1.2rem;
 }
+
+label {
+    max-width: 90px;
+    text-align: left;
+    font-weight: 700;
+}
+
+ #full_name, #email, #tel { 
+        width: 75%;
+        height: 30px;
+        float: right;
+}
+
 
 .submit-button {
-    width: 100px !important;
+    width: 100%;
     cursor: pointer;
     margin-top: 50px;
+    height: auto;
+    font-size: 1.8rem;
 }
+
 
 /* Media Queries*/
 
@@ -360,26 +343,17 @@ td {
     }
 }
 
-@media (max-width:768px) 
-{  #left-about{
-    float: none;
-    width: 100%;
-  }
+@media (max-width:768px) {
+   
+    /* Make rows full width on small devices */
+      .row {
+          flex-direction: column;
+          margin-bottom: 4rem;
+      }
+      /* end of flex grid for small devices */
 
-  #right-about{
-    float: none;
-    width: 100%;
-  }
-
-  #iframe-location{
-    width: 90%;
-    height: auto;
-  }
-  .location_wrap{
-    margin-bottom: 50px;
-  }
-    
 }
+
 
 @media (max-width:992px) {
     .navbar {

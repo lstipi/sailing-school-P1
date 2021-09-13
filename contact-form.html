@@ -21,32 +21,32 @@
             </div>
     </div>
   </nav>
-    <section class="contact-wrap">
-      <h1>Sign Up</h1>
+  <section class="contact-wrap">
+    <h1 class="text-center">Sign Up</h1>
     <div id="form">
-        <form class="contact_form" action="thank-you.html" method="post">
-            <div class="single-form1">
-              <label class="label-box" for="name">Full Name:</label>
-              <input class="name_input" type="text" name="full_name" id="name" tabindex="1" required>
-            </div>
-            <br>
-            <div class="single-form2">
-              <label class="label-box" for="email">Email:</label>
-              <input class="email_input" type="email" name="email" id="email" tabindex="2" required>
-            </div>
-            <br>
-            <div class="single-form3">
-              <div class="date1">
-                <label class="label-box" for="date1">Phone:</label>
-                <input class="date_input" type="tel" name="from_tel" id="tel1" tabindex="3" required>
-              </div>
-            </div>
-            <br>
-            <input class="submit-button" type="submit" tabindex="4" value="Set Sails!">
-          </form>
+      <form class="contact_form" action="thank-you.html" method="POST">
+        <div class="row">
+          <label class="column" for="name">Full Name:</label>
+          <input class=" column" type="text" name="full_name" id="full_name" tabindex="1" required>
+        </div>
+
+        <div class="row">
+          <label class="column" for="email">Email:</label>
+          <input class="column" type="email" name="email" id="email" tabindex="2" required>
+        </div>
+ 
+        <div class="row">
+            <label class="column" for="tel">Phone:</label>
+            <input class="column" type="tel" name="tel" id="tel" tabindex="3" required>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <input class="submit-button button" type="submit" tabindex="4" value="Set Sails!">
           </div>
-        </section>
-    </div>
+        </div>
+      </form>
+  </section>
     <footer>
       <div class="footer-wrap">
    <ul class="social-media">
