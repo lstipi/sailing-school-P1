@@ -162,6 +162,14 @@ nav .menu li a {
     flex: 1;
     margin: 0 1.2rem;
   }
+
+  .column.one-fourth {
+    flex-basis: 25%;
+}
+.column.three-fourths {
+    flex-basis: 75%;
+}
+
 /* end of flex grid from Tania Rascia */
 
 /* textual copy styles */
@@ -234,15 +242,12 @@ footer {
 }
 
 
-#location {
-    padding-top: 30px;
-
+.map-wrapper {
+    max-height: 75vh;
+    height: 75vh;
+    width: 100%;
 }
 
-#iframe-location {
-    width: 600px;
-    height: 400px;
-}
 
 /* Timetable style */
 
