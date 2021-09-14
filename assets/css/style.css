@@ -153,7 +153,7 @@ nav .menu li a {
 .main {
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 130px;
+    padding-top: 120px;
     margin-bottom: 4rem;
   }
 
@@ -309,8 +309,9 @@ td {
 
 .contact-wrap{
     display: block;
-    margin-top: 50px;
     text-align: center;
+    padding-top: 120px;
+    margin-bottom: 4rem;
     
   }
 
