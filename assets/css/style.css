@@ -357,11 +357,45 @@ label {
       }
       /* end of flex grid for small devices */
 
+      /* Make navigation responsive */
+.logo {
+    float: none;
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 2.4rem;
+    padding: 1.2rem 1.2rem 0;
+}
+nav .menu ul {
+    float: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .menu li {
+    float: none;
+    list-style: none;
+}
+
+nav .menu li a {
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    padding: 12px 9px;
+    letter-spacing: 2px;
+}
+
+
+
 }
 
 
 @media (max-width:992px) {
     .navbar {
-        width: 95%;
+        width: 100%;
     }
 }
