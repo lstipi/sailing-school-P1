@@ -2,7 +2,7 @@
 
 Hi, welcome to my Sailing School project!
 
-The initial idea was to set up a web site for a sailing school, focused on begginer's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project.  The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. 
+The initial idea was to set up a web site for a sailing school, focused on begginer's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project. The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. The colours were picked out as an attempt to emulate the colours of the Adriatic see and to give the user a feeling of being at see. 
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
