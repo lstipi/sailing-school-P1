@@ -8,6 +8,18 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 
 ![Central image](https://i.imgur.com/cZDY0Ux.jpg)
 
+- [Sailing School](#sailing-school)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+  * [Testing](#testing)
+    + [Validator Testing](#validator-testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Features
 
@@ -95,7 +107,7 @@ Opened when clicked on "Sign Up" in a new tab, leads the user to a form where th
 
 A custom 404 page was added, it contains the header and the footer, as well as a button that leads back to the homepage. 
 
-[404](https://i.imgur.com/jtZk6JI.jpg)
+![404](https://i.imgur.com/jtZk6JI.jpg)
 
 * __Favicon__
 
@@ -105,7 +117,7 @@ A favicon of a sailing boat was added to the code for styling purposes.
 
 ## Testing 
 
-Tested the webpage in Microsoft Edge, Mozzila Firefox and Google Chrome and everything works as intended. 
+Tested the webpage in Microsoft Edge, Mozilla Firefox and Google Chrome and everything works as intended. 
 
 Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. There's a possibility of existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
 
