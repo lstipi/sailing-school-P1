@@ -65,8 +65,8 @@ The footer conists of icons which when clicked lead to Twitter, Instagram and Fa
 
 Icons are animated when hovered over as seen in the screenshot below. 
 
-[Icons](https://i.imgur.com/m2PiBxQ.jpg)
-[IconsEffect](https://i.imgur.com/8hiVKE5.jpg?1)
+![Icons](https://i.imgur.com/m2PiBxQ.jpg)
+![IconsEffect](https://i.imgur.com/8hiVKE5.jpg?1)
 
 
 * __Beginner's Guide__
