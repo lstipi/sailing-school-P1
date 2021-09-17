@@ -95,7 +95,13 @@ Opened when clicked on "Sign Up" in a new tab, leads the user to a form where th
 
 A custom 404 page was added, it contains the header and the footer, as well as a button that leads back to the homepage. 
 
+[404](https://i.imgur.com/jtZk6JI.jpg)
 
+* __Favicon__
+
+A favicon of a sailing boat was added to the code for styling purposes. 
+
+![FavIcon](https://i.imgur.com/8wGzq2k.jpg)
 
 ## Testing 
 
@@ -106,16 +112,35 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) (a few warnings were, not sure if that counts)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) 
+
+  - where-to-find-us.html, contact-form and 404.html
+![HTMLValidator](https://i.imgur.com/dVCQGex.jpg)
+
+  - index.html didn't return any errors, but 1 warning came back. 
+![HTMLVal1](https://i.imgur.com/aXtRn9N.jpg)
+
 - CSS
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+  ![Jigsaw](https://i.imgur.com/RnFphkW.jpg)
+
+ - Lighthouse 
+  - index.html results are as follows: 
+  ![image](https://i.imgur.com/nY2StGA.jpg)
+
+  - where-to-find-us.html results are as follows: 
+  ![location](https://i.imgur.com/KDm0Bqu.jpg) 
+
+  - contact-form.html results are as follows:
+  ![contact-form](https://i.imgur.com/DvxyJTk.jpg)
+
 ## Deployment
 
-The site was deployed using GitPages, the link is :
+The site was deployed using GitPages, the link is: https://lstipi.github.io/sailing-school-P1/
 
 1. Go to the GitHub Pages https://github.com/lstipi/sailing-school-P1/settings/pages
-![image](https://user-images.githubusercontent.com/87386883/133104257-d6750715-56c1-4264-abc6-85d112a69527.png)
+![image](https://i.imgur.com/Jm2G8SN.jpg)
 
 2.  Selected the main branch and clicked Save
 ![image](https://user-images.githubusercontent.com/87386883/133104567-f3ad0cbe-f7bf-434f-9203-1957bcda758d.png)
@@ -131,18 +156,22 @@ The site was deployed using GitPages, the link is :
 
 - The fonts used are from [Google Fonts](https://fonts.google.com/specimen/Urbanist#pairings)
 - Reviewed most of the essential code from [W3Schools](https://www.w3schools.com/)
-- Text after iframe and positioning on beginners-guide.html from [Post](https://stackoverflow.com/questions/35877796/text-after-iframe)
 - Used Stackoverflow forums to double check code and see what other people did with theirs for inspiration  [Stackoverflow](https://stackoverflow.com/)
-- Used Mozilla Dev for checking essential code and jsut general help [MozzilaDev](https://developer.mozilla.org/en-US/)
+- Used Mozilla Dev for checking essential code and just general help [MozzilaDev](https://developer.mozilla.org/en-US/)
 - Used this website to help me calculate the units to centre elements [HowToCenterInCss](http://howtocenterincss.com/#contentType=text&horizontal=left&vertical=top)
 - Checked for media queries sizes [MediaQs](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Relied heavly on lessons in the course and the Love Running project
+- The favicon was taken from [Favicon](https://favicon.io/)
+- Flex grid from [Flex Grid](https://codepen.io/taniarascia/pen/rOLEGe/)
+- This tutorial helped me make the embedded video responsive [Embed a YouTube Video in HTML and Make it Responsive (CSS included)
+](https://www.youtube.com/watch?v=9YffrCViTVk)
 
 ### Media
 
 - The main image used on the homepage is from [Pexels]([https://www.pexels.com/photo/blue-boats-daylight-island-358326/)
 
+## Acknowledgments 
 
+- A huge thank you to my mentor Malia Havlicek for helping me with this project. :)  
 
 
