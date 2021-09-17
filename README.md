@@ -177,13 +177,14 @@ The site was deployed using GitPages, the link is: https://lstipi.github.io/sail
 - Flex grid from [Flex Grid](https://codepen.io/taniarascia/pen/rOLEGe/)
 - This tutorial helped me make the embedded video responsive [Embed a YouTube Video in HTML and Make it Responsive (CSS included)
 ](https://www.youtube.com/watch?v=9YffrCViTVk)
+- Table of content for ReadMe generated from [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
 
 ### Media
 
-- The main image used on the homepage is from [Pexels]([https://www.pexels.com/photo/blue-boats-daylight-island-358326/)
+- The main image used on the homepage is from [Pexels](https://www.pexels.com/photo/blue-boats-daylight-island-358326/)
 
 ## Acknowledgments 
 
-- A huge thank you to my mentor Malia Havlicek for helping me with this project. :)  
+- A huge thank you to my mentor Malia Havlicek for helping me with this project. 
 
 
