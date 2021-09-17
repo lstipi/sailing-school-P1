@@ -6,44 +6,54 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
-![Central image](https://i.imgur.com/uZ7OKci.jpg)
+![Central image](https://i.imgur.com/cZDY0Ux.jpg)
 
 
 ## Features
 
-The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to begginer's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue and white, to achieve good visibility. 
-To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form where t is possible to sign up in the contact-form.html. 
+The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to begginer's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue, ranging from paler shades to darker shades, to achieve good visibility. 
+To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form where t is possible to sign up in the contact-form.html. A custom 404 page was added as well.
 
 ### Existing Features
 
 
 * __Navigation Bar__ 
 
-The navigation bar is present on all other html files (with exception to begginer's-guide.html), it consists of 4 items, a logo that leads back to index.html, and a Home, Location and Contact Us clickable links that lead back to index.html, as well as where-to-find-us.html and contact-form.html. It is responsive and allows the user to navigate between the pages easily on all devices, ranging from a phone to a desktop. 
+The navigation bar is fixed and present on all other html files, it consists of 4 items, a logo and Home that lead back to index.html, Location that leads to where-to-find-us.html, and Sign Up that leads to contact-form. It is responsive and allows the user to navigate between the pages easily on all devices, ranging from a phone to a desktop. 
 
-![NavBar](https://i.imgur.com/1AIUerY.jpg)
+![NavBar](https://i.imgur.com/QhlO55e.jpg)
 
 
 * __Set Sail__ 
 
-The Set sail section consists of an background image of sailboats on the sea and in the centre of the image are two buttons. The first button Sailing Lessons leads directly to the timetable further down the page, while the Begginer's guide opens begginers-guide.html in a new tab. The begginers-guide.html consists of an embbeded youtube video where the basics of sailing are described. 
+The Set sail section consists of an background image of sailboats on the sea and in the centre of the image are two buttons. The first button Sailing Lessons leads directly to the About Us further down the page, while the Begginer's guide button leads to the Beginner's guide section on the very bottom of the page. 
 
 ![SetSail](https://i.imgur.com/SaUdCHW.jpg)
+
+Buttons also have a hover animation as can be seen in the screenshots below.
+
+![Buttons](https://i.imgur.com/ENe81YS.jpg?4)
+![ButtonsHover](https://i.imgur.com/DkzfHTs.png?2)
 
 
 * __About Us__
 
 The About Us section gives a brief description of when the sailing club was founded and what it's goals are. 
 
-![AboutUs](https://i.imgur.com/ehVIzvH.jpg)
+![AboutUs](https://i.imgur.com/rKjviNs.jpg)
 
 
 
 * __Timetable__
 
+
+
 The Timetable section contains a table of times when lessons are happening throughout the week. If the time of the lesson changes, the table will be updated and members will be notified.
 
-![Timetable](https://i.imgur.com/kvchy3W.jpg)
+
+
+
+![Timetable](https://i.imgur.com/cYXo0JQ.jpg)
 
 
 
@@ -51,15 +61,19 @@ The Timetable section contains a table of times when lessons are happening throu
 
 The footer conists of icons which when clicked lead to Twitter, Instagram and Facebook and are opened in a new tab for easy navigation. 
 
-![Footer](https://i.imgur.com/LNnxIC0.jpg)
+![Footer](https://i.imgur.com/sNgLFqf.jpg)
 
+Icons are animated when hovered over as seen in the screenshot below. 
+
+[Icons](https://i.imgur.com/m2PiBxQ.jpg)
+[IconsEffect](https://i.imgur.com/8hiVKE5.jpg?1)
 
 
 * __Beginner's Guide__
 
-Opened when clicking on the "Beginner's Guide" link, the begginers-guide.html consists of an embbeded youtube video where the basics of sailing are shown. 
+Opened when clicking on the "Beginner's Guide" button, it consists of an embbeded youtube video where the basics of sailing are shown. 
 
-![BeginnersGuide](https://i.imgur.com/DsCEYS5.jpg)
+![BegsGuide](https://i.imgur.com/pwGPjzY.jpg)
 
 
 
@@ -67,7 +81,7 @@ Opened when clicking on the "Beginner's Guide" link, the begginers-guide.html co
 
 Opened when clicked on "Location" in the navigation bar, opens in a new tab that allows for easy navigation. It consists of an iframe with a location of the lessons as well as a short description of the place itself. Contains both navigation bar and footer.
 
-![Location](https://i.imgur.com/TCGCt3P.jpg)
+![Location](https://i.imgur.com/dssP49D.jpg)
 
 
 
@@ -75,7 +89,13 @@ Opened when clicked on "Location" in the navigation bar, opens in a new tab that
 
 Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. 
 
-![SignUp](https://i.imgur.com/UL7yvDV.jpg)
+![SignUp](https://i.imgur.com/M0AqkUq.jpg)
+
+* __404 Page__
+
+A custom 404 page was added, it contains the header and the footer, as well as a button that leads back to the homepage. 
+
+
 
 ## Testing 
 
