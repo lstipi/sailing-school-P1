@@ -137,7 +137,7 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 
   ![Jigsaw](https://i.imgur.com/RnFphkW.jpg)
 
- - Lighthouse 
+- Lighthouse 
   - index.html results are as follows: 
   ![image](https://i.imgur.com/nY2StGA.jpg)
 
