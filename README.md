@@ -2,7 +2,7 @@
 
 Hi, welcome to my Sailing School project!
 
-The initial idea was to set up a web site for a sailing school, focused on beginner's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project. The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. The colours were picked out as an attempt to emulate the colours of the Adriatic see and to give the user a feeling of being at see. 
+The initial idea was to set up a website for a sailing school, focused on beginner's lessons for children. I wanted the design to be minimalistic, easy to navigate, and comprehend, which was (hopefully) achieved in this project. The website is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech-savvy and needs a simple website that does what it says, the design for this project was achieved. The colours were picked out as an attempt to emulate the colours of the Adriatic sea and to give the user a feeling of being at sea. 
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
@@ -26,7 +26,7 @@ The initial idea was to set up a web site for a sailing school, focused on begin
 
 ## Features
 
-The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to beginner's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue, ranging from paler shades to darker shades, to achieve good visibility. 
+The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a navbar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to beginner's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue, ranging from paler shades to darker shades, to achieve good visibility. 
 To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form where t is possible to sign up in the contact-form.html. A custom 404 page was added as well.
 
 ### Existing Features
@@ -34,7 +34,7 @@ To achieve the minimalistic style, I didn't add a lot of text, nor features, jus
 
 * __Navigation Bar__ 
 
-The navigation bar is fixed and present on all other html files, it consists of 4 items, a logo and Home that lead back to index.html, Location that leads to where-to-find-us.html, and Sign Up that leads to contact-form. It is responsive and allows the user to navigate between the pages easily on all devices, ranging from a phone to a desktop. 
+The navigation bar is fixed and present on all other html files, it consists of 4 items, a logo, and Home that leads back to index.html, Location that leads to where-to-find-us.html, and Sign Up that leads to contact-form. It is responsive and allows the user to navigate between the pages easily on all devices, ranging from a phone to a desktop. 
 
 ![NavBar](https://i.imgur.com/AS3X58w.png)
 ![NavBarMob](https://i.imgur.com/i5JerW2.png)
@@ -56,7 +56,7 @@ Buttons also have a hover animation as can be seen in the screenshots below.
 
 * __About Us__
 
-The About Us section gives a brief description of when the sailing club was founded and what it's goals are. 
+The About Us section gives a brief description of when the sailing club was founded and what its goals are. 
 
 ![AboutUs](https://i.imgur.com/3PNsZVo.png)
 
@@ -77,7 +77,7 @@ The Timetable section contains a table of times when lessons are happening throu
 
 * __Footer__
 
-The footer conists of icons which when clicked lead to Twitter, Instagram and Facebook and are opened in a new tab for easy navigation. It is fully resposive as can be seen on the screenshots below.
+The footer consists of icons which when clicked lead to Twitter, Instagram, and Facebook and are opened in a new tab for easy navigation. It is fully responsive as can be seen on the screenshots below.
 
 ![Footer](https://i.imgur.com/91KCawL.png)
 ![FooterM](https://i.imgur.com/Y0j6Ieb.png)
@@ -90,7 +90,7 @@ Icons are animated when hovered over as seen in the screenshot below.
 
 * __Beginner's Guide__
 
-Opened when clicking on the "Beginner's Guide" button, it consists of an embbeded youtube video where the basics of sailing are shown. The video is fully responsive and the user can play the video directly from the website using the play button on the video. 
+Opened when clicking on the "Beginner's Guide" button, it consists of an embedded youtube video where the basics of sailing are shown. The video is fully responsive and the user can play the video directly from the website using the play button on the video. 
 
 ![BegsGuide](https://i.imgur.com/km35LFv.png)
 
@@ -98,7 +98,7 @@ Opened when clicking on the "Beginner's Guide" button, it consists of an embbede
 
 * __Location__
 
-Opened when clicked on "Location" in the navigation bar, opens in a new tab that allows for easy navigation. It consists of an iframe with a location of the lessons as well as a short description of the place itself. Contains both navigation bar and footer.
+Opened when clicked on "Location" in the navigation bar, opens in a new tab that allows for easy navigation. It consists of an iframe with a location of the lessons as well as a short description of the place itself. Contains both a navigation bar and footer.
 
 ![Location](https://i.imgur.com/ViYkT5i.png)
 ![LocationM](https://i.imgur.com/FyqSV1F.png?1)
@@ -107,10 +107,10 @@ Opened when clicked on "Location" in the navigation bar, opens in a new tab that
 
 * __Sign Up__
 
-Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. The "Set Sail!" button has a hover effect just like the "Sailing Lessons" and "Beginner's Guide" buttons found on the homepage.
+Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email, and phone fields. The navigation bar and footer are also present. The "Set Sail!" button has a hover effect just like the "Sailing Lessons" and "Beginner's Guide" buttons found on the homepage.
 
 ![SignUp](https://i.imgur.com/8vhzhe2.png)
-  - If the requirements for certain fields are not met, e.g. if the content put into the email field doesnt't contain an @ symbol, a warning will pop up on the screen and the user won't be able to submit the form until the requirements are met. 
+  - If the requirements for certain fields are not met, e.g. if the content put into the email field doesn't contain an @ symbol, a warning will pop up on the screen and the user won't be able to submit the form until the requirements are met. 
   ![Email](https://i.imgur.com/yZCrijZ.png)
   - After the user has met all the requirements to successfully submit the form, after clicking on the "Set Sail!" button, the Code Institute formdump website opens and confirms that the form has been submitted successfully. 
   ![FormDump](https://i.imgur.com/PfhQP8J.png)
@@ -151,15 +151,15 @@ Tested the webpage on the following devices:
   - Moto G4 (Chrome emulator) 
   - Ipad (Chrome emulator)
 
-Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. The submit button is positioned strangely when on mobile devices, and will be fixed in the next update. There's a possibility of more existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
+Bugs occurred mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. The submit button is positioned strangely when on mobile devices, and will be fixed in the next update. There's a possibility of more existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
 
 ## Defects 
   - CSS smooth scrolling
     - The scrolling on all devices was rather abrupt, therefore it was fixed by adding the scroll-behavior: smooth; property in CSS. 
-  - Sailing Lessons scroll goes to odd spot
+  - Sailing Lessons scroll goes to an odd spot
     - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; and 100px for smaller devices.
   - Form fields too small on mobile
-    - The form fields were too small to interact with on mobile, was fixed by adding padding:8px; property for the ids in question within the media query targeting small devices. The form submit button needs further styling which will be done in the next update.
+    - The form fields were too small to interact with on mobile, this defect was fixed by adding padding:8px; property for the ids in question within the media query targeting small devices. The form submits button needs further styling which will be done in the next update.
 
     ![Defect](https://i.imgur.com/Ao8nlu6.png)
 
@@ -206,12 +206,12 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 
 ## Manual Testing
 
-Tested most of the features myself on either emulators or phones, and most of the things work as inteded, besides the form defect mentioned above.
+Tested most of the features myself on either emulators or phones, and most of the things work as intended, besides the form defect mentioned above.
 
 ### Homepage
 
 - [x] All navigation points go where they should
-- [x] All footer links open new tabs because they are not in the website
+- [x] All footer links open new tabs because they are not on the website
 - [x] No console errors
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
@@ -219,7 +219,7 @@ Tested most of the features myself on either emulators or phones, and most of th
 
 ### Location
 - [x] All navigation points go where they should
-- [x] All footer links open new tabs because they are not in the website
+- [x] All footer links open new tabs because they are not on the website
 - [x] No console errors
 - [x] iframe is fully responsive
 - [x] Looks nice on tablets 
@@ -228,16 +228,16 @@ Tested most of the features myself on either emulators or phones, and most of th
 
 ### Form
 - [x] All navigation points go where they should
-- [x] All footer links open new tabs because they are not in the website
+- [x] All footer links open new tabs because they are not on the website
 - [x] No console errors
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
 - [x] Won't submit the form if requirements are not met
-- [x] After a successful submission of the form it leads to CI's formdump website
+- [x] After successful submission of the form it leads to CI's formdump website
 
 ### 404
 - [x] All navigation points go where they should
-- [x] All footer links open new tabs because they are not in the website
+- [x] All footer links open new tabs because they are not on the website
 - [x] No console errors
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
@@ -266,7 +266,7 @@ The site was deployed using GitPages, the link is: https://lstipi.github.io/sail
 
 - The fonts used are from [Google Fonts](https://fonts.google.com/specimen/Urbanist#pairings)
 - Reviewed most of the essential code from [W3Schools](https://www.w3schools.com/)
-- Used Stackoverflow forums to double check code and see what other people did with theirs for inspiration  [Stackoverflow](https://stackoverflow.com/)
+- Used Stackoverflow forums to double-check code and see what other people did with theirs for inspiration  [Stackoverflow](https://stackoverflow.com/)
 - Used Mozilla Dev for checking essential code and just general help [MozzilaDev](https://developer.mozilla.org/en-US/)
 - Used this website to help me calculate the units to centre elements [HowToCenterInCss](http://howtocenterincss.com/#contentType=text&horizontal=left&vertical=top)
 - Checked for media queries sizes [MediaQs](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries?rq=1)
