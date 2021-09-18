@@ -267,7 +267,7 @@ The site was deployed using GitPages, the link is: https://lstipi.github.io/sail
 - The fonts used are from [Google Fonts](https://fonts.google.com/specimen/Urbanist#pairings)
 - Reviewed most of the essential code from [W3Schools](https://www.w3schools.com/)
 - Used Stackoverflow forums to double-check code and see what other people did with theirs for inspiration  [Stackoverflow](https://stackoverflow.com/)
-- Used Mozilla Dev for checking essential code and just general help [MozzilaDev](https://developer.mozilla.org/en-US/)
+- Used Mozilla Dev for checking essential code and just general help [MozillaDev](https://developer.mozilla.org/en-US/)
 - Used this website to help me calculate the units to centre elements [HowToCenterInCss](http://howtocenterincss.com/#contentType=text&horizontal=left&vertical=top)
 - Checked for media queries sizes [MediaQs](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries?rq=1)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
