@@ -200,6 +200,16 @@ nav .menu li a {
     text-align: center;
 }
 
+/* Buttons leading to odd places fix */
+
+#about-us {
+    scroll-margin-top: 75px;
+}
+
+#beginners-guide {
+    scroll-margin-top: 75px;
+}
+
 
 /* footer */
 
@@ -351,56 +361,24 @@ label {
 
 /* Media Queries*/
 
- /* Make the pages responsive on phones */
+/* Laptop */
 
-@media(max-width:600px) {
-    
-    
-    #form input {
-        width: 200px;
-    }
-
-    .contact-wrap {
-        margin-top: 50px;
-    }
-
-    .logo {
-        float: none;
-        display: block;
-        font-size: 28px;
-        font-weight: bold;
-        padding: 1.2rem 1.2rem 0;
-    }
-
-    nav .menu ul {
-        float: none;
-        padding: 0;
-        font-size: 18px;
-        text-align: center;
-        margin: 0 auto 10px;
-        display: flex;
-        justify-content: center;
-    }
-
-    nav .menu li {
-        float: none;
-        list-style: none;
-    }
-
-    nav .menu li a {
-        color: inherit;
-        cursor: pointer;
-        display: block;
-        padding: 12px 9px;
-        letter-spacing: 2px;
+@media (max-width:992px) {
+    .navbar {
+        width: 100%;
     }
 
     #about-us {
-        scroll-margin-top: 100px;
+        scroll-margin-top: 75px;
     }
 
-    
+    #beginners-guide {
+        scroll-margin-top: 75px;
+    }
 }
+
+
+/* Tablet */
 
 @media (max-width:768px) {
 
@@ -446,17 +424,58 @@ label {
         letter-spacing: 2px;
     }
 
+    /* Buttons leading to odd places fix */
+    
     #about-us {
-        scroll-margin-top: 100px !important;
+        scroll-margin-top: 100px;
+    }
+
+    #beginners-guide {
+        scroll-margin-top: 100px;
     }
 }
 
-@media (max-width:992px) {
-    .navbar {
-        width: 100%;
+
+ /*  Phones */
+
+@media(max-width:600px) {
+       
+    #form input {
+        width: 200px;
     }
 
-    #about-us {
-        scroll-margin-top: 75px;
+    .contact-wrap {
+        margin-top: 50px;
     }
+
+    .logo {
+        float: none;
+        display: block;
+        font-size: 28px;
+        font-weight: bold;
+        padding: 1.2rem 1.2rem 0;
+    }
+
+    nav .menu ul {
+        float: none;
+        padding: 0;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav .menu li {
+        float: none;
+        list-style: none;
+    }
+
+    nav .menu li a {
+        color: inherit;
+        cursor: pointer;
+        display: block;
+        padding: 12px 9px;
+        letter-spacing: 2px;
+    }    
 }
