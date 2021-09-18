@@ -6,7 +6,9 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
-![Central image](https://i.imgur.com/cZDY0Ux.jpg)
+![Central image](https://i.imgur.com/ilNBWgm.png)
+
+## Table of contents
 
 - [Sailing School](#sailing-school)
   * [Features](#features)
@@ -40,7 +42,7 @@ The navigation bar is fixed and present on all other html files, it consists of 
 
 The Set sail section consists of an background image of sailboats on the sea and in the centre of the image are two buttons. The first button Sailing Lessons leads directly to the About Us further down the page, while the Begginer's guide button leads to the Beginner's guide section on the very bottom of the page. 
 
-![SetSail](https://i.imgur.com/SaUdCHW.jpg)
+![SetSail](https://i.imgur.com/yL9cmuh.jpg)
 
 Buttons also have a hover animation as can be seen in the screenshots below.
 
@@ -117,9 +119,23 @@ A favicon of a sailing boat was added to the code for styling purposes.
 
 ## Testing 
 
-Tested the webpage in Microsoft Edge, Mozilla Firefox and Google Chrome and everything works as intended. 
+Tested the webpage in the following browsers: 
+  - Microsoft Edge 
+  - Mozilla Firefox 
+  - Google Chrome 
+
+Tested the webpage on the following devices: 
+  - Huawei P30 
+  - Moto G6 (Chrome emulator) 
+  - Ipad (Chrome emulator)
 
 Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. There's a possibility of existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
+
+## Defects 
+  - CSS smooth scrolling
+    - The scrolling on all devices was rather abrupt, therefore it was fixed by adding the scroll-behavior: smooth; property in CSS. 
+  - Sailing Lessons scroll goes to odd spot
+    - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; for  
 
 ### Validator Testing 
 
@@ -146,6 +162,18 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 
   - contact-form.html results are as follows:
   ![contact-form](https://i.imgur.com/DvxyJTk.jpg)
+
+## Manual Testing
+
+### Homepage
+
+- [x] All navigation points go where they should
+- [x] All footer links open new tabs because they are not in my site
+- [x] No console errors
+- [x] Looks nice on tablet portrait
+- [x] Looks nice on desktop
+- [x] Looks nice on my phone
+
 
 ## Deployment
 

@@ -6,6 +6,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
@@ -23,15 +27,12 @@ h2 {
 
 /* menu nav options style */
 
-
 .navbar {
     width: 100%;
     margin: 0 auto;
     top: 0;
     position: fixed;
     background-color: #499DD0;
-    
-
 }
 
 nav a {
@@ -69,7 +70,6 @@ nav .menu li a {
 }
 
 
-
 /* sailing image */
 
 #set-sail {
@@ -79,9 +79,6 @@ nav .menu li a {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
-
 
 
 /* buttons and cover text*/
@@ -106,7 +103,7 @@ nav .menu li a {
     cursor: pointer;
     background-color: #1177bb;
     color: white;
-    border: 8px solid #073757; 
+    border: 8px solid #073757;
     font-family: Lato, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
@@ -123,31 +120,27 @@ nav .menu li a {
 /* beginners guide */
 
 #beginners-header {
-   
+
     font-size: 32px;
     text-align: center;
 }
 
 /* CSS to make the embedded YouTube video responsive adopted from https://www.youtube.com/watch?v=9YffrCViTVk */
 
-.youtube-video-div 
-{
+.youtube-video-div {
     position: relative;
-      width: 100%;
-      padding-bottom: 56.25%; 
-      height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
     margin: 1.2rem auto;
 }
 
-.youtube-video-div iframe{
+.youtube-video-div iframe {
     width: 100%;
     height: 60%;
-    
+
     position: absolute;
 }
-
-
-
 
 
 /* sailing about */
@@ -158,26 +151,33 @@ nav .menu li a {
     margin: 0 auto;
     padding-top: 120px;
     margin-bottom: 4rem;
-  }
+}
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-  }
-  .column {
+}
+
+.column {
     flex: 1;
     margin: 0 1.2rem;
-  }
+}
 
-  .column.one-fourth {
+.column.one-fourth {
     flex-basis: 25%;
 }
+
 .column.three-fourths {
     flex-basis: 75%;
 }
 
 /* end of flex grid from Tania Rascia */
+
+#about-us {
+    scroll-margin-top: 75px;
+}
+
 
 /* textual copy styles */
 .copy {
@@ -186,18 +186,21 @@ nav .menu li a {
     font-weight: 500;
     letter-spacing: 1px;
 }
-.copy p{
+
+.copy p {
     margin-bottom: 1.2rem;
     font-size: 18px;
     line-height: 1.8rem;
 }
-.copy h2{
-        font-family: 'Lato', sans-serif;
-        font-size: 2.4rem;
-        line-height: 3.2rem;
-        margin: 1.2rem 0 1rem;
+
+.copy h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 1.2rem 0 1rem;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
 
@@ -227,7 +230,7 @@ footer {
 
 .social-media li a {
     font-size: 30px;
-    
+
     margin: 15px
 }
 
@@ -269,7 +272,7 @@ footer a:hover i {
 #timetable {
     padding: 30px;
     text-align: center;
-    
+
 }
 
 table {
@@ -310,15 +313,15 @@ td {
 
 /* contact-form*/
 
-.contact-wrap{
+.contact-wrap {
     display: block;
     text-align: center;
     padding-top: 120px;
     margin-bottom: 4rem;
-    
-  }
 
-  .contact-wrap h1 {
+}
+
+.contact-wrap h1 {
     font-size: 36px;
     padding-bottom: 40px;
 }
@@ -338,10 +341,12 @@ label {
     font-weight: 700;
 }
 
- #full_name, #email, #tel { 
-        width: 75%;
-        height: 30px;
-        float: right;
+#full_name,
+#email,
+#tel {
+    width: 75%;
+    height: 30px;
+    float: right;
 }
 
 
@@ -357,11 +362,12 @@ label {
 /* Media Queries*/
 
 @media(max-width:600px) {
-    #form input { 
+    #form input {
         width: 200px;
     }
+
     .contact-wrap {
-        margin-top:50px;
+        margin-top: 50px;
     }
 
     .logo {
@@ -370,9 +376,10 @@ label {
         font-size: 28px;
         font-weight: bold;
         padding: 1.2rem 1.2rem 0;
-    
-        
+
+
     }
+
     nav .menu ul {
         float: none;
         padding: 0;
@@ -382,12 +389,12 @@ label {
         display: flex;
         justify-content: center;
     }
-    
+
     nav .menu li {
         float: none;
         list-style: none;
     }
-    
+
     nav .menu li a {
         color: inherit;
         cursor: pointer;
@@ -395,35 +402,37 @@ label {
         padding: 12px 9px;
         letter-spacing: 2px;
     }
-    
 
-   
-    
+
+
+
 }
 
 @media (max-width:768px) {
-   
+
     /* Make rows full width on small devices */
-      .row {
-          flex-direction: column;
-          margin-bottom: 4rem;
-      }
-      /* end of flex grid for small devices */
+    .row {
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
 
-      /* Make navigation responsive */
+    /* end of flex grid for small devices */
 
-      .logo {
+    /* Make navigation responsive */
+
+    .logo {
         float: none;
         display: block;
         font-size: 28px;
         font-weight: bold;
         padding: 20px 2.4rem;
         padding: 1.2rem 1.2rem 0;
-        
-        
-    
-        
+
+
+
+
     }
+
     nav .menu ul {
         float: none;
         padding: 0;
@@ -433,12 +442,12 @@ label {
         display: flex;
         justify-content: center;
     }
-    
+
     nav .menu li {
         float: none;
         list-style: none;
     }
-    
+
     nav .menu li a {
         color: inherit;
         cursor: pointer;
@@ -447,7 +456,7 @@ label {
         letter-spacing: 2px;
 
     }
-    
+
 
 }
 
