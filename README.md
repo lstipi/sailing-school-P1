@@ -129,6 +129,7 @@ A favicon of a sailing boat was added to the code for styling purposes.
 ![FavIcon](https://i.imgur.com/8wGzq2k.jpg)
 
 * __Media Queries__
+
 Media Query break points used for this website are:
 
   - max-width:480px for smaller devices such as mobile phones, e.g Huawei P30, iPhone
@@ -147,7 +148,7 @@ Tested the webpage in the following browsers:
 
 Tested the webpage on the following devices: 
   - Huawei P30 
-  - Moto G6 (Chrome emulator) 
+  - Moto G4 (Chrome emulator) 
   - Ipad (Chrome emulator)
 
 Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. The submit button is positioned strangely when on mobile devices, and will be fixed in the next update. There's a possibility of more existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
@@ -234,6 +235,13 @@ Tested most of the features myself on either emulators or phones, and most of th
 - [x] Won't submit the form if requirements are not met
 - [x] After a successful submission of the form it leads to CI's formdump website
 
+### 404
+- [x] All navigation points go where they should
+- [x] All footer links open new tabs because they are not in the website
+- [x] No console errors
+- [x] Looks nice on tablets 
+- [x] Looks nice on desktops
+- [x] Looks nice on phones
 
 
 
