@@ -6,7 +6,8 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
-![Central image](https://i.imgur.com/ilNBWgm.png)
+![FullScreen](https://i.imgur.com/ilNBWgm.png)
+![FullScreen Mobile](https://i.imgur.com/pYTL6Gm.png)
 
 ## Table of contents
 
@@ -35,14 +36,17 @@ To achieve the minimalistic style, I didn't add a lot of text, nor features, jus
 
 The navigation bar is fixed and present on all other html files, it consists of 4 items, a logo and Home that lead back to index.html, Location that leads to where-to-find-us.html, and Sign Up that leads to contact-form. It is responsive and allows the user to navigate between the pages easily on all devices, ranging from a phone to a desktop. 
 
-![NavBar](https://i.imgur.com/QhlO55e.jpg)
+![NavBar](https://i.imgur.com/AS3X58w.png)
+![NavBarMob](https://i.imgur.com/i5JerW2.png)
 
 
 * __Set Sail__ 
 
-The Set sail section consists of an background image of sailboats on the sea and in the centre of the image are two buttons. The first button Sailing Lessons leads directly to the About Us further down the page, while the Begginer's guide button leads to the Beginner's guide section on the very bottom of the page. 
+The Set sail section consists of an background image of sailboats at sea and in the centre of the image are two buttons. The first button Sailing Lessons leads directly to the About Us further down the page, while the Beginner's guide button leads to the Beginner's guide section on the very bottom of the page. 
 
-![SetSail](https://i.imgur.com/yL9cmuh.jpg)
+![SetSail](https://i.imgur.com/eE88sAY.png)
+![SetSailMob](https://i.imgur.com/Dk06z6f.png)
+
 
 Buttons also have a hover animation as can be seen in the screenshots below.
 
@@ -54,7 +58,7 @@ Buttons also have a hover animation as can be seen in the screenshots below.
 
 The About Us section gives a brief description of when the sailing club was founded and what it's goals are. 
 
-![AboutUs](https://i.imgur.com/rKjviNs.jpg)
+![AboutUs](https://i.imgur.com/3PNsZVo.png)
 
 
 
@@ -67,15 +71,16 @@ The Timetable section contains a table of times when lessons are happening throu
 
 
 
-![Timetable](https://i.imgur.com/cYXo0JQ.jpg)
+![Timetable](https://i.imgur.com/IH5TBqf.png)
 
 
 
 * __Footer__
 
-The footer conists of icons which when clicked lead to Twitter, Instagram and Facebook and are opened in a new tab for easy navigation. 
+The footer conists of icons which when clicked lead to Twitter, Instagram and Facebook and are opened in a new tab for easy navigation. It is fully resposive as can be seen on the screenshots below.
 
-![Footer](https://i.imgur.com/sNgLFqf.jpg)
+![Footer](https://i.imgur.com/91KCawL.png)
+![FooterM](https://i.imgur.com/Y0j6Ieb.png)
 
 Icons are animated when hovered over as seen in the screenshot below. 
 
@@ -85,9 +90,9 @@ Icons are animated when hovered over as seen in the screenshot below.
 
 * __Beginner's Guide__
 
-Opened when clicking on the "Beginner's Guide" button, it consists of an embbeded youtube video where the basics of sailing are shown. 
+Opened when clicking on the "Beginner's Guide" button, it consists of an embbeded youtube video where the basics of sailing are shown. The video is fully responsive and the user can play the video directly from the website using the play button on the video. 
 
-![BegsGuide](https://i.imgur.com/pwGPjzY.jpg)
+![BegsGuide](https://i.imgur.com/km35LFv.png)
 
 
 
@@ -95,21 +100,23 @@ Opened when clicking on the "Beginner's Guide" button, it consists of an embbede
 
 Opened when clicked on "Location" in the navigation bar, opens in a new tab that allows for easy navigation. It consists of an iframe with a location of the lessons as well as a short description of the place itself. Contains both navigation bar and footer.
 
-![Location](https://i.imgur.com/dssP49D.jpg)
+![Location](https://i.imgur.com/ViYkT5i.png)
+![LocationM](https://i.imgur.com/FyqSV1F.png?1)
 
 
 
 * __Sign Up__
 
-Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. 
+Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. If the requirements for certain fields are not met, e.g. if the content put into the email field doesnt't contain an @ symbol, a warning will pop up on the screen and the user wil be unable to submit the form until the requirements are met. 
 
-![SignUp](https://i.imgur.com/M0AqkUq.jpg)
+![SignUp](https://i.imgur.com/8vhzhe2.png)
 
 * __404 Page__
 
 A custom 404 page was added, it contains the header and the footer, as well as a button that leads back to the homepage. 
 
-![404](https://i.imgur.com/jtZk6JI.jpg)
+![404](https://i.imgur.com/ZbdTWpE.png)
+![404mobile](https://i.imgur.com/Yexl3I7.png)
 
 * __Favicon__
 
@@ -137,7 +144,8 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
   - Sailing Lessons scroll goes to odd spot
     - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; and 100px for smaller devices.
   - Form fields too small on mobile
-    - The form fields are too small to intercat with on mobile, will be fixed in the next update. 
+    - The form fields are too small to interact with on mobile, the text within the button is positioned strangely, and will be fixed in the next update. 
+    ![Defect](https://i.imgur.com/rFDG97z.png)
 
 ### Validator Testing 
 
@@ -167,8 +175,13 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 
   - contact-form.html results are as follows:
   ![contact-form](https://i.imgur.com/DvxyJTk.jpg)
+  
+  - 404.html results are as follows: 
+  ![404](https://i.imgur.com/l41Uypb.jpg)
 
 ## Manual Testing
+
+Tested most of the features myself on either emulators or phones, and most of the things work as inteded, besides the form defect mentioned above.
 
 ### Homepage
 
@@ -178,6 +191,24 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
 - [x] Looks nice on phones
+
+### Location
+- [x] All navigation points go where they should
+- [x] All footer links open new tabs because they are not in the website
+- [x] No console errors
+- [x] Looks nice on tablets 
+- [x] Looks nice on desktops
+- [x] Looks nice on phones
+
+### Form
+- [x] All navigation points go where they should
+- [x] All footer links open new tabs because they are not in the website
+- [x] No console errors
+- [x] Looks nice on tablets 
+- [x] Looks nice on desktops
+- [x] Won't submit the form if requirements are not met
+
+
 
 
 ## Deployment
