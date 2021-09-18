@@ -438,10 +438,14 @@ label {
 
  /*  Phones */
 
-@media(max-width:600px) {
-       
+@media(max-width:480px) {
+    
     #form input {
         width: 200px;
+    }
+
+    #full_name, #email, #tel {
+        padding: 8px;
     }
 
     .contact-wrap {
@@ -477,5 +481,5 @@ label {
         display: block;
         padding: 12px 9px;
         letter-spacing: 2px;
-    }    
+    }  
 }

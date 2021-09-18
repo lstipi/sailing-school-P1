@@ -107,9 +107,13 @@ Opened when clicked on "Location" in the navigation bar, opens in a new tab that
 
 * __Sign Up__
 
-Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. If the requirements for certain fields are not met, e.g. if the content put into the email field doesnt't contain an @ symbol, a warning will pop up on the screen and the user wil be unable to submit the form until the requirements are met. 
+Opened when clicked on "Sign Up" in a new tab, leads the user to a form where they can sign up for the lessons. It consists of name, email and phone fields. Navigation bar and footer are also present. The "Set Sail!" button has a hover effect just like the "Sailing Lessons" and "Beginner's Guide" buttons found on the homepage.
 
 ![SignUp](https://i.imgur.com/8vhzhe2.png)
+  - If the requirements for certain fields are not met, e.g. if the content put into the email field doesnt't contain an @ symbol, a warning will pop up on the screen and the user won't be able to submit the form until the requirements are met. 
+  ![Email](https://i.imgur.com/yZCrijZ.png)
+  - After the user has met all the requirements to successfully submit the form, after clicking on the "Set Sail!" button, the Code Institute formdump website opens and confirms that the form has been submitted successfully. 
+  ![FormDump](https://i.imgur.com/PfhQP8J.png)
 
 * __404 Page__
 
@@ -124,6 +128,16 @@ A favicon of a sailing boat was added to the code for styling purposes.
 
 ![FavIcon](https://i.imgur.com/8wGzq2k.jpg)
 
+* __Media Queries__
+Media Query break points used for this website are:
+
+  - max-width:480px for smaller devices such as mobile phones, e.g Huawei P30, iPhone
+
+  - max-width:768px; for iPads and most tablets
+
+  - max-width:992px for most desktop/laptop browsers
+
+
 ## Testing 
 
 Tested the webpage in the following browsers: 
@@ -136,7 +150,7 @@ Tested the webpage on the following devices:
   - Moto G6 (Chrome emulator) 
   - Ipad (Chrome emulator)
 
-Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. There's a possibility of existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
+Bugs occured mostly because of my typos, but they were corrected as they were found. According to the Validators, the html and css code is fully functional. The submit button is positioned strangely when on mobile devices, and will be fixed in the next update. There's a possibility of more existing bugs I haven't encountered yet, so those will (hopefully) be squashed when found.
 
 ## Defects 
   - CSS smooth scrolling
@@ -144,8 +158,11 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
   - Sailing Lessons scroll goes to odd spot
     - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; and 100px for smaller devices.
   - Form fields too small on mobile
-    - The form fields are too small to interact with on mobile, the text within the button is positioned strangely, and will be fixed in the next update. 
-    ![Defect](https://i.imgur.com/rFDG97z.png)
+    - The form fields were too small to interact with on mobile, was fixed by adding padding:8px; property for the ids in question within the media query targeting small devices. The form submit button needs further styling which will be done in the next update.
+
+    ![Defect](https://i.imgur.com/Ao8nlu6.png)
+
+    ![DefectFix](https://i.imgur.com/mbHAOJM.png)
 
 ### Validator Testing 
 
@@ -162,21 +179,28 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
   - results for style.css came back as follows:
+
   ![Jigsaw](https://i.imgur.com/RnFphkW.jpg)
+
   - all.min.css (FontAwesome stylesheet)
+
   ![JigsawII](https://i.imgur.com/rXzeKNT.jpg)
 
 - Lighthouse 
   - index.html results are as follows: 
+
   ![image](https://i.imgur.com/nY2StGA.jpg)
 
   - where-to-find-us.html results are as follows: 
+
   ![location](https://i.imgur.com/KDm0Bqu.jpg) 
 
   - contact-form.html results are as follows:
+
   ![contact-form](https://i.imgur.com/DvxyJTk.jpg)
   
-  - 404.html results are as follows: 
+  - the custom 404.html results are as follows : 
+
   ![404](https://i.imgur.com/l41Uypb.jpg)
 
 ## Manual Testing
@@ -196,6 +220,7 @@ Tested most of the features myself on either emulators or phones, and most of th
 - [x] All navigation points go where they should
 - [x] All footer links open new tabs because they are not in the website
 - [x] No console errors
+- [x] iframe is fully responsive
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
 - [x] Looks nice on phones
@@ -207,6 +232,7 @@ Tested most of the features myself on either emulators or phones, and most of th
 - [x] Looks nice on tablets 
 - [x] Looks nice on desktops
 - [x] Won't submit the form if requirements are not met
+- [x] After a successful submission of the form it leads to CI's formdump website
 
 
 
@@ -235,13 +261,15 @@ The site was deployed using GitPages, the link is: https://lstipi.github.io/sail
 - Used Stackoverflow forums to double check code and see what other people did with theirs for inspiration  [Stackoverflow](https://stackoverflow.com/)
 - Used Mozilla Dev for checking essential code and just general help [MozzilaDev](https://developer.mozilla.org/en-US/)
 - Used this website to help me calculate the units to centre elements [HowToCenterInCss](http://howtocenterincss.com/#contentType=text&horizontal=left&vertical=top)
-- Checked for media queries sizes [MediaQs](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- Checked for media queries sizes [MediaQs](https://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries?rq=1)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The favicon was taken from [Favicon](https://favicon.io/)
 - Flex grid from [Flex Grid](https://codepen.io/taniarascia/pen/rOLEGe/)
 - This tutorial helped me make the embedded video responsive [Embed a YouTube Video in HTML and Make it Responsive (CSS included)
 ](https://www.youtube.com/watch?v=9YffrCViTVk)
 - Table of content for ReadMe generated from [GitHub Wiki TOC generator](https://ecotrust-canada.github.io/markdown-toc/)
+- Fixed odd buttons issue with the help of this [Article](https://stackoverflow.com/questions/11501025/div-anchors-scrolling-too-far)
+- Fixed abrupt scrolling with the help of this [Article](https://www.w3schools.com/cssref/pr_scroll-behavior.asp)
 
 ### Media
 
