@@ -135,7 +135,9 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
   - CSS smooth scrolling
     - The scrolling on all devices was rather abrupt, therefore it was fixed by adding the scroll-behavior: smooth; property in CSS. 
   - Sailing Lessons scroll goes to odd spot
-    - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; for  
+    - After fixating the navigation on the top of the page, the Sailing Lessons button lead to an odd place on the page, not the one it was supposed to anyway. It was fixed by adding the scroll-margin-top: 70px; property to CSS stylesheet for desktop and, scroll-margin-top: 70px; and 100px for smaller devices.
+  - Form fields too small on mobile
+    - The form fields are too small to intercat with on mobile, will be fixed in the next update. 
 
 ### Validator Testing 
 
@@ -151,7 +153,10 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 - CSS
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+  - results for style.css came back as follows:
   ![Jigsaw](https://i.imgur.com/RnFphkW.jpg)
+  - all.min.css (FontAwesome stylesheet)
+  ![JigsawII](https://i.imgur.com/rXzeKNT.jpg)
 
 - Lighthouse 
   - index.html results are as follows: 
@@ -168,11 +173,11 @@ Bugs occured mostly because of my typos, but they were corrected as they were fo
 ### Homepage
 
 - [x] All navigation points go where they should
-- [x] All footer links open new tabs because they are not in my site
+- [x] All footer links open new tabs because they are not in the website
 - [x] No console errors
-- [x] Looks nice on tablet portrait
-- [x] Looks nice on desktop
-- [x] Looks nice on my phone
+- [x] Looks nice on tablets 
+- [x] Looks nice on desktops
+- [x] Looks nice on phones
 
 
 ## Deployment

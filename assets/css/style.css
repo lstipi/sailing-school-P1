@@ -14,7 +14,6 @@ body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 400;
     background-color: #99ccff;
-
 }
 
 /* headings and logo*/
@@ -49,7 +48,6 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-
 
 nav .menu ul {
     float: right;
@@ -174,9 +172,7 @@ nav .menu li a {
 
 /* end of flex grid from Tania Rascia */
 
-#about-us {
-    scroll-margin-top: 75px;
-}
+
 
 
 /* textual copy styles */
@@ -272,7 +268,6 @@ footer a:hover i {
 #timetable {
     padding: 30px;
     text-align: center;
-
 }
 
 table {
@@ -282,8 +277,6 @@ table {
     width: 80%;
     height: 80%;
     display: inline-table;
-
-
 }
 
 #tcap {
@@ -291,7 +284,6 @@ table {
     font-size: larger;
     font-weight: 600;
     text-align: center;
-
 }
 
 td {
@@ -318,7 +310,6 @@ td {
     text-align: center;
     padding-top: 120px;
     margin-bottom: 4rem;
-
 }
 
 .contact-wrap h1 {
@@ -349,7 +340,6 @@ label {
     float: right;
 }
 
-
 .submit-button {
     width: 100%;
     cursor: pointer;
@@ -361,7 +351,11 @@ label {
 
 /* Media Queries*/
 
+ /* Make the pages responsive on phones */
+
 @media(max-width:600px) {
+    
+    
     #form input {
         width: 200px;
     }
@@ -376,8 +370,6 @@ label {
         font-size: 28px;
         font-weight: bold;
         padding: 1.2rem 1.2rem 0;
-
-
     }
 
     nav .menu ul {
@@ -403,9 +395,11 @@ label {
         letter-spacing: 2px;
     }
 
+    #about-us {
+        scroll-margin-top: 100px;
+    }
 
-
-
+    
 }
 
 @media (max-width:768px) {
@@ -427,10 +421,6 @@ label {
         font-weight: bold;
         padding: 20px 2.4rem;
         padding: 1.2rem 1.2rem 0;
-
-
-
-
     }
 
     nav .menu ul {
@@ -454,15 +444,19 @@ label {
         display: block;
         padding: 12px 9px;
         letter-spacing: 2px;
-
     }
 
-
+    #about-us {
+        scroll-margin-top: 100px !important;
+    }
 }
-
 
 @media (max-width:992px) {
     .navbar {
         width: 100%;
+    }
+
+    #about-us {
+        scroll-margin-top: 75px;
     }
 }
