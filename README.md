@@ -2,7 +2,7 @@
 
 Hi, welcome to my Sailing School project!
 
-The initial idea was to set up a web site for a sailing school, focused on begginer's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project. The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. The colours were picked out as an attempt to emulate the colours of the Adriatic see and to give the user a feeling of being at see. 
+The initial idea was to set up a web site for a sailing school, focused on beginner's lessions for children. I wanted the design to be minimalistic, easy to navigate and comprehend, which was (hopefully) achieved in this project. The webiste is designed for parents that wish to sign their children up for sailing lessons. Keeping in mind that the intended user might not be tech savvy and needs a simple website that does what it says, the design for this project was achieved. The colours were picked out as an attempt to emulate the colours of the Adriatic see and to give the user a feeling of being at see. 
 
 [Deployed URL](https://lstipi.github.io/sailing-school-P1/)
 
@@ -26,7 +26,7 @@ The initial idea was to set up a web site for a sailing school, focused on beggi
 
 ## Features
 
-The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to begginer's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue, ranging from paler shades to darker shades, to achieve good visibility. 
+The project requirements were to use HTML and CSS to do so, therefore the initial document was index.html linked with a style.css spreadsheet. The idea for index.html was to have a nav bar above an image with 2 buttons in the center of the image. The navigation bar consists of a logo on the left and the links to where-to-find-us.html and contact-form.html, while the buttons in the centre lead to beginner's guide.html and the timetable displayed under the central image in index.html. The main colors of the project are various shades of blue, ranging from paler shades to darker shades, to achieve good visibility. 
 To achieve the minimalistic style, I didn't add a lot of text, nor features, just the basic information about the sailing club accompanied by a timetable of the sailing lessons on index.html, basic instructions on how to reach the location on where-to-find-us.html, and a form where t is possible to sign up in the contact-form.html. A custom 404 page was added as well.
 
 ### Existing Features
